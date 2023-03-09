@@ -5,7 +5,4 @@ def twoSum(nums, target) :
         for j in range(length):
             if(nums[i]+nums[j] == target):
                 return [i,j]
-
-arr = [2, 7, 11, 15]
-num = 9
-print(twoSum(arr, num))
+)
